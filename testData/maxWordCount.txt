@@ -1,0 +1,6 @@
+doGet() method is used to get information, while doPost() method is used for posting information. 
+doGet() requests can't send large amount of information and is limited to 240-255 characters. 
+However, doPost()requests passes all of its data, of unlimited length. 
+A doGet() request is appended to the request URL in a query string and this allows the exchange is visible to the client, 
+whereas a doPost() request passes directly over the socket connection as part of its HTTP request body 
+and the exchange are invisible to the client.
